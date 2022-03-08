@@ -2338,6 +2338,7 @@ input, select, textarea {
 		.icon.major {
 			text-decoration: none;
 			color: #555;
+			
 			cursor: default;
 			display: inline-block;
 			margin: 0 0 1.5em 0;
@@ -2615,6 +2616,7 @@ input, select, textarea {
 				margin: 0;
 				text-align: center;
 				width: 8em;
+				background-color: #728c69;
 			}
 
 				ul.major-icons li .icon:before {
