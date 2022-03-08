@@ -1,5 +1,6 @@
 @import url("fontawesome-all.min.css");
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,400italic");
+@import url("https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css");
 
 /*
 	Photon by HTML5 UP
@@ -2280,13 +2281,15 @@ input, select, textarea {
 			text-rendering: auto;
 			line-height: 1;
 			text-transform: none !important;
-			font-family: 'Font Awesome 5 Free';
+			font-family: 'Font Awesome 5 Free', 'Devicon';
 			font-weight: 400;
 		}
 
 		.icon > .label {
 			display: none;
 		}
+
+		
 
 		.icon:before {
 			line-height: inherit;
@@ -2301,27 +2304,35 @@ input, select, textarea {
 		}
 
 		.icon.style1:before {
-			color: #c3e895;
+			color: #61dafb;
 		}
 
 		.icon.style2:before {
-			color: #8addaa;
+			color: #d91404;
 		}
 
 		.icon.style3:before {
-			color: #6bd4c8;
+			color: #c00;
 		}
 
 		.icon.style4:before {
-			color: #57aed3;
+			color: #336791;
 		}
 
 		.icon.style5:before {
-			color: #4a87d3;
+			color: #f34f29;
 		}
 
 		.icon.style6:before {
-			color: #6b88e6;
+			color: #ffd845;
+		}
+
+		.icon.style7:before {
+			color: #ffd845;
+		}
+
+		.icon.style8:before {
+			color: #764abc;
 		}
 
 		.icon.major {
@@ -2341,7 +2352,7 @@ input, select, textarea {
 				text-rendering: auto;
 				line-height: 1;
 				text-transform: none !important;
-				font-family: 'Font Awesome 5 Free';
+				/* font-family: 'Font Awesome 5 Free'; */
 				font-weight: 400;
 			}
 
